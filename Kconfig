@@ -1,0 +1,8 @@
+menu "I2C"
+
+    config I2C_TIMEOUT
+        int "I2C transaction timeout [ms]"
+        default 1000
+        range 10 5000
+        
+endmenu
